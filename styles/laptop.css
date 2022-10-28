@@ -1,0 +1,140 @@
+.navbar {
+    background-color: rgb(59, 89, 152);
+    overflow: hidden;
+    height: 63px;
+    margin-bottom: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 14px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .open-slide {
+    display: block;
+}
+
+.navbar .logo {
+    float: left;
+    margin: 0 0 5px 10px;
+    transform: rotate(90deg);
+}
+.navbar .logo img {
+    width: 40px;
+    height: auto;
+}
+
+.navbar .navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav a {
+    float: right;
+    display: block;
+}
+
+.navbar ul {
+    padding: 4px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 34, 122, 0.4);
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(58, 89, 152);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: aliceblue;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: beige;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 3.6rem;
+    margin-left: 50px;
+}
+
+.side-nav .logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin: 0 0 5px 10px;
+    transform: rotate(90deg);
+}
+.side-nav .logo img {
+    width: 40px;
+    height: auto;
+}
+
+.main {
+    transition:margin-left 0.5s;
+    overflow: inherit;
+    padding: 20px;
+    width: 100%;
+}
+
+.presentation {
+    height: 360px;
+    background-image: url('../draws/logoPresentation.png');
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 0.3;
+}
+
+.text-box {
+    margin-left: 30px;
+    font-size: 7.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 16rem;
+    opacity: 1;
+}
+.mycase {
+    color: #fff;
+    background-image: linear-gradient(to right, #31a1b8 , #c06ec9, #ed404d);
+}
+
+
+.cases-section {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.cases-section .case {
+    width: 30%;
+    height: 400px;
+    margin: 1.66%;
+}
+/* 
+.cases-section .big {
+    width: 30%;
+    height: 640px;
+} */
