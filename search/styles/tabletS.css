@@ -1,0 +1,41 @@
+.cases-section {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.cases-section .case {
+    width: 46%;
+    height: 400px;
+    margin: 2%;
+}
+
+
+.ftr-container {
+    height: 150px;
+}
+.ftr-container .social-media {
+    display: flex;
+    float: right;
+    margin-top: 0;
+}
+.ig {
+    background-image: url('../../img/ig.png');
+}
+.tw {
+    background-image: url('../../img/tw.jpg');
+}
+.lk {
+    background-image: url('../../img/lk.png');
+}
+.gh {
+    background-image: url('../../img/gh-white.png');
+}
+.sm {
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 35px;
+}

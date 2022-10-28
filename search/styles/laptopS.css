@@ -1,0 +1,174 @@
+.navbar {
+    background-color: rgb(59, 89, 152);
+    overflow: hidden;
+    height: 63px;
+    margin-bottom: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 14px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .open-slide {
+    display: block;
+}
+
+.navbar .logo {
+    float: left;
+    margin: 0 0 5px 10px;
+    transform: rotate(90deg);
+}
+.navbar .logo img {
+    width: 40px;
+    height: auto;
+}
+
+.navbar .navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav a {
+    float: right;
+    display: block;
+}
+
+.navbar ul {
+    padding: 4px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(18, 34, 122, 0.4);
+    transition: 2s;
+    border-radius: 5px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(58, 89, 152);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: aliceblue;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: beige;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 3.6rem;
+    margin-left: 50px;
+}
+
+.side-nav .logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin: 0 0 5px 10px;
+    transform: rotate(90deg);
+}
+.side-nav .logo img {
+    width: 40px;
+    height: auto;
+}
+
+.main {
+    transition:margin-left 0.5s;
+    overflow: inherit;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.search-wrapper {    
+    left: calc(50% - 235px);
+}
+
+.search-wrapper .search-box {
+    height: 50px;
+    padding: 15px 20px;
+}
+
+.search-wrapper input {
+    font-size: 1.6rem;
+    transition: .4s;
+    width: 400px;
+}
+
+.search-wrapper .search-btn {
+    width: 25px;
+    height: 25px;
+}
+
+
+.cases-section {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.cases-section .case {
+    width: 30%;
+    height: 400px;
+    margin: 1.66%;
+}
+/* 
+.cases-section .big {
+    width: 30%;
+    height: 640px;
+} */
+
+.ftr-container {
+    height: 80px;
+}
+.ftr-container p {
+    line-height: 60px;
+}
+.ftr-container .social-media {
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+.ig {
+    background-image: url('../../img/ig.png');
+}
+.tw {
+    background-image: url('../../img/tw.jpg');
+}
+.lk {
+    background-image: url('../../img/lk.png');
+}
+.gh {
+    background-image: url('../../img/gh-white.png');
+}
+.sm {
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 30px;
+}

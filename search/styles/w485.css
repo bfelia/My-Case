@@ -1,0 +1,29 @@
+.ftr-container {
+    height: 180px;
+}
+.ftr-container .social-media {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+.ig {
+    background-image: url('../../img/ig.png');
+}
+.tw {
+    background-image: url('../../img/tw.jpg');
+}
+.lk {
+    background-image: url('../../img/lk.png');
+}
+.gh {
+    background-image: url('../../img/gh-white.png');
+}
+.sm {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin-right: 30px;
+}
